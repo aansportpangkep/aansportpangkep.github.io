@@ -118,7 +118,7 @@ header > .profile > .tag > span:hover {
 
 section {
     width: 100%;
-    height: 70vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -128,6 +128,7 @@ section > .listButton {
     display: flex;
     flex-direction: column;
     row-gap: 1rem;
+    transform: translateY(-.8rem);
 }
 
 section > .listButton > .button {
